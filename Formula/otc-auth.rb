@@ -5,6 +5,7 @@ class OtcAuth < Formula
   desc "Open Source CLI for the Open Telekom Cloud written in go"
   homepage "https://github.com/iits-consulting/otc-auth"
   default_version = "2.0.0" # Specify a default version number
+  license "MIT" 
   platform = if OS.mac?
     "darwin"
   elsif OS.linux?
